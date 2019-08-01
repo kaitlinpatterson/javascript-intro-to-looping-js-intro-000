@@ -8,10 +8,10 @@ function forLoop(array) {
     return array;
 }
 function whileLoop(n) {
-while (countdown > 0) {
+while (n > 0) {
   console.log(--n);
 }
-if (countdown === 0) {
+if (n === 0) {
   return done
 }
 }
